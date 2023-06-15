@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import JugadoresSR from "./components/jugadores/jugadoresSR";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-white-900 min-h-screen h-full text-black flex items-center justify-center py-20 px-5">
+
+      <div className="container flex flex-col max-w-xl">
+
+      </div>
+      <JugadoresSR />
     </div>
   );
 }
